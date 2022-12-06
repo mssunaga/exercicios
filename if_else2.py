@@ -1,27 +1,3 @@
-### Condicional - Elifs
-
-# elif + or
-
-nome = str(input('Digite o nome:'))
-if nome == 'Marcello':
-  print('Bom dia, {}' .format(nome))
-elif nome == 'Maria' or nome =='João' or nome == 'José':
-  print('Buenos dias, {}' .format(nome))
-else:
-  print('Good morning, {}' .format(nome))
-
-
-# elif + in
-nome = str(input('Digite o nome:'))
-if nome == 'Marcello':
-  print('Bom dia, {}' .format(nome))
-elif nome in 'Maria João José':
-  print('Buenos dias, {}' .format(nome))
-else:
-  print('Good morning, {}' .format(nome))
-
-###################################################################################################
-
 ### Programa: Emprestimo bancário
 # Perguntar valor da casa, salário e anos a pagar, retornar se o emprestimo será aprovado.
 # Condição: Prestação mensal não pode exceder 30% do valor do salário
