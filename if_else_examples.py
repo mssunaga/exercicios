@@ -1,38 +1,3 @@
-#### Estruturas condicionais ####
-
-# Condição simples: if
-
-idade = int(input('Digite a idade:'))
-print('Muito novo' if idade <= 10 else 'Não tão novo')
-
-nome = str(input('Digite o nome:')).strip()
-if nome == 'Marcello':
-  print('E aí cara')
-print('Bom dia, {}' .format(nome.capitalize()))
-
-
-# Condição composta: if + else
-nome = str(input('Digite o nome:')).strip()
-if nome == 'Marcello':
-  print('E aí cara')
-else:
-  print('Suaves ae')
-print('Bom dia, {}' .format(nome.capitalize()))
-
-
-
-## Exemplo com notas
-
-n1 = float(input('Digite a nota 1:'))
-n2 = float(input('Digite a nota 2:'))
-m = (n1 + n2)/2
-if m >= 6:
-  print('Aprovado')
-else:
-  print('Reprovado')
-
-################################################################################################
-
 ### Programa - Jogo: 
 # Fazer o computador pensar em um número inteiro aleatório entre 0 e 5;
 # Pedir para o usuário digitar um número entre 0 e 5;
