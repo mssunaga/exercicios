@@ -1,7 +1,3 @@
-#### laços: While
-# Quando não sabemos o limite de uma range, é melhor usar o While.
-# Não há diferença necessariamente de velocidade ou melhor ou pior.
-
 # Testando a função
 
 for c in range(1,10):
